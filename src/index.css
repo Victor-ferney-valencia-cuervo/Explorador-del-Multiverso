@@ -18,5 +18,7 @@ body {
     text-align: center;
     font-family: cursive;
     text-shadow: 1px 1px 5px #3cf324;
-
+    animation: cocaacola 2s alternate infinite;
 }
+
+@keyframes cocacola {}
