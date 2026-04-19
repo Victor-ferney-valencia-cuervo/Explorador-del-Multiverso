@@ -1,24 +1,10 @@
-@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    background: #0ba6ee;
+  background: #0ba6ee;
+  font-family: system-ui, -apple-system, sans-serif;
 }
-
-.titulo-1-inicio {
-    color: rgb(25, 230, 18);
-    text-align: center;
-    font-family: monospace;
-    text-shadow: 1px 1px 5px green;
-
-}
-
-.titulo-2 {
-    font-size: xx-large;
-    color: rgb(13, 228, 13);
-    text-align: center;
-    font-family: cursive;
-    text-shadow: 1px 1px 5px #3cf324;
-    animation: cocaacola 2s alternate infinite;
-}
-
-@keyframes cocacola {}
